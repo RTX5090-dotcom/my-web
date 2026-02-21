@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Message Classification Lab | Gianni Mele</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #111;
+    background-color: #ffffff;
+}
+
+/* Top Institutional Bar */
+.topbar {
+    background-color: #A51C30;
+    color: white;
+    padding: 10px 8%;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
+
+nav .logo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #A51C30;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 75vh;
+    background: url('https://images.unsplash.com/photo-1526378722443-4bba7c4c6a86') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+    position: relative;
+    padding: 0 8%;
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    background-color: #A51C30;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #7d1524;
+}
+
+/* Section Layout */
+.section {
+    padding: 80px 8%;
+}
+
+.section h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.card {
+    border-top: 4px solid #A51C30;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 40px 8%;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+AI Honors Research Project | Gianni Mele
+</div>
+
+<nav>
+    <div class="logo">AI Message Classification Lab</div>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Methodology</a></li>
+        <li><a href="#">Model Demo</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Advancing Digital Fraud Detection Through Artificial Intelligence</h1>
+        <p>
+        A machine learning system designed to classify incoming messages as 
+        Spam, Scam, or Safe using natural language processing and pattern recognition.
+        </p>
+        <a href="#" class="btn">Explore the Model</a>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Research Overview</h2>
+    <p>
+    This project investigates automated detection of fraudulent digital communications.
+    By leveraging supervised machine learning and NLP techniques, the system identifies
+    linguistic cues commonly associated with scams and deceptive messaging.
+    </p>
+</section>
+
+<section class="section" style="background-color:#f7f7f7;">
+    <h2>Core Components</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Data Collection</h3>
+            <p>Curated dataset of labeled spam, scam, and safe messages for supervised training.</p>
+        </div>
+        <div class="card">
+            <h3>Natural Language Processing</h3>
+            <p>Tokenization, vectorization, and feature extraction techniques applied to text input.</p>
+        </div>
+        <div class="card">
+            <h3>Classification Model</h3>
+            <p>Algorithm trained to detect urgency signals, fraud markers, and behavioral patterns.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Impact</h2>
+    <p>
+    Online scams impact millions of individuals annually. This system aims to contribute
+    toward preventative detection tools that can be integrated into messaging platforms
+    and educational resources.
+    </p>
+</section>
+
+<footer>
+© 2026 Gianni Mele | AI Honors Research Initiative  
+All Rights Reserved.
+</footer>
+
+</body>
+</html>
