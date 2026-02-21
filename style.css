@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #111;
+    background-color: #ffffff;
+}
+
+.topbar {
+    background-color: #A51C30;
+    color: white;
+    padding: 10px 8%;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+}
+
+.logo {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #A51C30;
+}
+
+.hero {
+    position: relative;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+    position: relative;
+    padding: 0 8%;
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 48px;
+}
+
+.section {
+    padding: 80px 8%;
+}
+
+.section h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.card {
+    border-top: 4px solid #A51C30;
+    padding-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background-color: #A51C30;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #7d1524;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 40px 8%;
+    font-size: 14px;
+}
